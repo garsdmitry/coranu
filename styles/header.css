@@ -1,30 +1,24 @@
 .header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    /* position: relative;
-    top: 72px; */
-    padding-top: 72px;
-    padding-bottom: 64px;
 }
 
-.logo {
+.header-logo {
     display: flex;
     flex-direction: row-reverse;
-    position: relative;
-    left: 124px;
+    padding-top: 71px;
+    padding-left: 124px;
 }
 
-.logo__text {
+.header-logo__text {
     color: #1E1E1E;
-    font-family: Inter;
     font-size: 28px;
-    line-height: normal;
-    position: relative;
-    left: 8px;
+    width: 97px;
+    height: 33px;
+    padding-left: 8px;
 }
 
-.logo__circle {
+.header-logo__circle {
     width: 35px;
     height: 35px;
     border-radius: 17px;
@@ -32,7 +26,7 @@
     position: relative;
 }
 
-.logo__small-circle {
+.header-logo__small-circle {
     width: 16x;
     height: 16px;
     fill: #779DFF;
@@ -42,57 +36,53 @@
     top: 2px;
 }
 
-
-
 .header-menu {
     display: flex;
     gap: 52px;
-    position: absolute;
-    left: 984px;
+    padding-left: 596px;
+    padding-top: 77px;
 }
 
-.menu__element {
+.header-menu__element {
     color: #969696;
     font-family: Inter;
     font-size: 15px;
     line-height: normal;
 }
 
-.menu__element_alloted {
+.header-menu__element_alloted {
     color: #0D0D0D;
     font-family: Inter;
     font-size: 15px;
     line-height: normal;
 }
 
-.hiring {
+.header__hiring {
     width: 42px;
     height: 14px;
     border-radius: 7px;
     background: #1C5CFF;
     color: #FFF;
-    font-family: Inter;
     font-size: 10px;
-    line-height: normal;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    position: absolute;
-    left: 1324px;
+    margin-top: 80px;
+    margin-left: 8px;
 }
 
-.button {
+.header-button {
     width: 160px;
     height: 46px;
     border-radius: 5px;
     background: #1C5CFF;
     position: absolute;
-    left: 1448px;
+    margin-left: 1350px;
+    margin-top: 66px;
 }
 
-.button__text {
+.header-button__text {
     color: #FFF;
-    font-family: Inter;
     font-size: 15px;
     text-decoration: none;
     display: flex;
@@ -100,10 +90,10 @@
     position: absolute;
     top: 50%;
     margin-top: -8px;
-    left: 26px;
+    padding-left: 26px;
 }
 
-.button__square {
+.header-button__square {
     width: 24px;
     height: 24px;
     border-radius: 2px;
@@ -114,7 +104,7 @@
     left: 126px;
 }
 
-.button__arrow {
+.header-button__arrow {
     width: 18px;
     height: 18px;
     position: absolute;

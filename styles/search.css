@@ -6,7 +6,8 @@
     border-radius: 62px;
     background: #FFF;
     position: absolute;
-    left: 335px;
+    margin-left: 335px;
+    margin-top: 66px;
 }
 
 .search__input {
@@ -19,7 +20,6 @@
 
 .search__command {
     color: #7D7D7D;
-    font-family: Inter;
     font-size: 14px;
     width: 16px;
     height: 16px;

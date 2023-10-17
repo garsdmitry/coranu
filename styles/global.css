@@ -1,6 +1,8 @@
 body {
     width: 1620px;
     height: 1660px;
+    font-family: Inter;
+    src: url(../assets/Inter.zip);
     line-height: normal;
     font-style: normal;
     background: #F9F9F9;

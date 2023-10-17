@@ -1,0 +1,25 @@
+.trending {
+    position: absolute;
+    top: 432px;
+    left: 534px;
+}
+
+.trending__content {
+    display: flex;
+    gap: 22px;
+}
+
+.trending__border {
+    display: inline-flex;
+    padding: 6px 16px;
+    align-items: flex-start;
+    gap: 9px;
+    border-radius: 29px;
+    border: 1px solid #C9C9C9;
+    background: #FFF;
+}
+
+.trending__element {
+    color: #797979;
+    font-size: 15px;
+}
