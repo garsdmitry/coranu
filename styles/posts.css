@@ -4,7 +4,9 @@
 
 .post {
     display: flex;
-
+    padding-bottom: 96px;
+    gap: 24px;
+    justify-content: space-between;
 }
 
 /* .post {
@@ -106,6 +108,11 @@
     position: absolute;
     left: 26px;
     top: 92px;
+}
+
+.post__image-circle_last {
+    left: 0px;
+    top: 17px;
 }
 
 .overflow {
