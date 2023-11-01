@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles/global.css">
+  <link rel="stylesheet" href="styles/button.css">
   <link rel="stylesheet" href="styles/main.css">
   <link rel="stylesheet" href="styles/search.css">
   <link rel="stylesheet" href="styles/header.css">
@@ -17,164 +18,181 @@
   <title>Coranu</title>
 </head>
 
-<body id="app">
-  <header class="header">
-    <div class="header-logo">
-      <div class="header-logo__text">
-        <b>Coranu</b>
-      </div>
-      <div class="header-logo__circle">
-        <img class="header-logo__small-circle" src="assets/small-circle.svg" alt="circle">
-      </div>
-    </div>
-    <div class="search">
-      <input class="search__input" type="search" placeholder="search...">
-      <img class="search__magnifier" src="assets/icon-search.svg" alt="magnifier">
-      <div class="search__command">/</div>
-    </div>
-    <div class="header-menu">
-      <div class="header-menu__element">Home</div>
-      <div class="header-menu__element">Market</div>
-      <div class="header-menu__element_alloted">Blog</div>
-      <div class="header-menu__element">Career</div>
-    </div>
-    <div class="header__hiring">hiring</div>
-    <div class="header-button">
-      <a class="header-button__text" href="#">Get Started</a>
-      <div class="header-button__square"></div>
-      <img class="header-button__arrow" src="assets/arrow.svg" alt="arrow">
-    </div>
-  </header>
-  <main class="main">
-    <div class="section">
-      <a class="section-link">
-        <div class="section-link__text">See Coranu Tutorial <img class="section-link__arrow" src="assets/arrow-2.svg"
-            alt="arrow"> </div>
-      </a>
-      <div class="section__title">
-        <b>Insights from our team</b>
-      </div>
-      <div class="section__text">Powerful Trading Tools and Features for Experienced Investors</div>
-      <div class="section-search">
-        <input class="search__input" type="search" placeholder="search...">
-        <img class="search__magnifier" src="assets/icon-search.svg" alt="magnifier">
-        <div class="search__command">/</div>
-      </div>
-      <hr class="section-hr">
-    </div>
-    <div class="main__content">
-      <div class="main__menu">
-        <ul class="menu">
-          <li class="brand-text">Blog Topics</li>
-          <li class="common-text">Company</li>
-          <li class="common-text">Design</li>
-          <li class="common-text">Technology</li>
-          <li class="common-text">Crypto</li>
-          <li class="common-text">Artificial Intelligence</li>
-          <li class="common-text">Work</li>
-        </ul>
-        <ul class="menu">
-          <li class="brand-text">Guide and Tools</li>
-          <li class="common-text">Guidelines</li>
-          <li class="common-text">Mentorship</li>
-          <li class="common-text">Tutorial</li>
-          <li class="common-text">Training</li>
-          <li class="common-text">Career</li>
-          <li class="common-text">Self Care</li>
-        </ul>
-      </div>
-      <div class="main__posts">
-        <div class="trending">
-          <div class="trending__title brand-text">Trending Topics</div>
-          <div class="trending__content">
-            <div class="trending__border">
-              <div class="trending__element">Design Thinking</div>
-            </div>
-            <div class="trending__border">
-              <div class="trending__element">Technology</div>
-            </div>
-            <div class="trending__border">
-              <div class="trending__element">Web3</div>
-            </div>
-            <div class="trending__border">
-              <div class="trending__element">Programming</div>
-            </div>
-            <div class="trending__border">
-              <div class="trending__element">AI</div>
-            </div>
+<body>
+  <div id="app">
+    <header class="header">
+      <div class="header__logo">
+        <div class="logo">
+          <div class="logo__circle">
+            <img class="logo__small-circle" src="assets/small-circle.svg" alt="circle">
           </div>
-        </div>
-        <div class="posts">
-          <div class="post">
-            <div class="post__content">
-              <div class="post__date">Mar 1</div>
-              <div class="post__title">
-                <b>Powerful Trading Tools and <br> Features for Experienced Investors</b>
-              </div>
-              <div class="post__text">I’m always trying to think of new and interesting <br> business ideas. I generally
-                try
-                to come up with ideas <br> by thinking of what I would want to do or see in the <br> world. Then, I try to
-                find reasons why it wouldn’t work...</div>
-              <div class="post-footer">
-                <div class="post-footer__trending">Tools</div>
-                <div class="post-footer__author">By Mark Tuchel</div>
-                <div class="post-footer__point">
-                  <img src="assets/point.svg" alt="point">
-                </div>
-                <div class="post-footer__min-read">7 min read</div>
-              </div>
-            </div>
-            <div class="post__image">
-              <img class="post__image-circle" src="assets/image-1-circle.svg" alt="circle">
-              <img class="post__image-arc" src="assets/image-1-arc.svg" alt="arc">
-            </div>
-          </div>
-          <div class="post">
-            <div class="post__content">
-              <div class="post__date">Jan 2</div>
-              <div class="post__title">
-                <b>We are implementing AI and <br> Technology</b>
-              </div>
-              <div class="post__text">I’m always trying to think of new and interesting <br> business ideas. I generally
-                try
-                to come up with ideas <br> by thinking of what I would want to do or see in the <br> world. Then, I try to
-                find reasons why it wouldn’t work...</div>
-              <div class="post-footer">
-                <div class="post-footer__trending">AI</div>
-                <div class="post-footer__author">By Harry Oland</div>
-                <div class="post-footer__point">
-                  <img src="assets/point.svg" alt="point">
-                </div>
-                <div class="post-footer__min-read">4 min read</div>
-              </div>
-            </div>
-            <div class="post__image">
-              <img class="post__image-circle post__image-circle_last" src="assets/image-2-circle.svg" alt="image">
-            </div>
-          </div>
-          <div class="overflow">
-            <overflfow class="overflow-scroll"></overflfow>
+          <div class="logo__text">
+            <b>Coranu</b>
           </div>
         </div>
       </div>
-    </div>
-  </main>
-  <footer class="footer">
-    <div class="footer-content">
-      <div class="footer-content__link">Stay up to date</div>
-      <div class="footer-content__title">
-        <b>Join Our Newsletter</b>
+      <div class="header__search">
+        <div class="search">
+          <input class="search__input" type="search" placeholder="search...">
+          <img class="search__magnifier" src="assets/icon-search.svg" alt="magnifier">
+          <div class="search__command">/</div>
+        </div>
       </div>
-      <div class="footer-content-input">
-        <input class="footer-content-input__placeholder" type="email" placeholder="Enter your email..">
+      <nav class="header__menu">
+        <ul class="line-menu">
+          <li class="line-menu__item">Home</li>
+          <li class="line-menu__item">Market</li>
+          <li class="line-menu__item line-menu__item_active">Blog</li>
+          <li class="line-menu__item">Career</li>
+        </ul>
+      </nav>
+      <div class="header__hiring">
+        <div class="hiring">hiring</div>
       </div>
-      <a class="footer-content__button">Submit</a>
-      <div class="footer-content__ps">*You can unsubscribe anytime</div>
-    </div>
-    <div class="footer-image">
-      <div class="footer-image__arc"></div>
-    </div>
-  </footer>
+      <div class="header__button">
+        <a href="#" class="button button_icon">
+          <div class="button__text">Get Started</div>
+          <div class="button__icon">
+            <img class="button__icon-arrow" src="assets/arrow.svg" alt="arrow">
+          </div>
+        </a>
+      </div>
+    </header>
+    <main class="main">
+      <div class="section">
+        <a class="section-link">
+          <div class="section-link__text">See Coranu Tutorial <img class="section-link__arrow" src="assets/arrow-2.svg"
+              alt="arrow"> </div>
+        </a>
+        <div class="section__title">
+          <b>Insights from our team</b>
+        </div>
+        <div class="section__text">Powerful Trading Tools and Features for Experienced Investors</div>
+        <div class="section-search">
+          <input class="search__input" type="search" placeholder="search...">
+          <img class="search__magnifier" src="assets/icon-search.svg" alt="magnifier">
+          <div class="search__command">/</div>
+        </div>
+        <hr class="section-hr">
+      </div>
+      <div class="main__content">
+        <div class="main__menu">
+          <ul class="menu">
+            <li class="brand-text">Blog Topics</li>
+            <li class="common-text">Company</li>
+            <li class="common-text">Design</li>
+            <li class="common-text">Technology</li>
+            <li class="common-text">Crypto</li>
+            <li class="common-text">Artificial Intelligence</li>
+            <li class="common-text">Work</li>
+          </ul>
+          <ul class="menu">
+            <li class="brand-text">Guide and Tools</li>
+            <li class="common-text">Guidelines</li>
+            <li class="common-text">Mentorship</li>
+            <li class="common-text">Tutorial</li>
+            <li class="common-text">Training</li>
+            <li class="common-text">Career</li>
+            <li class="common-text">Self Care</li>
+          </ul>
+        </div>
+        <div class="main__posts">
+          <div class="trending">
+            <div class="trending__title brand-text">Trending Topics</div>
+            <div class="trending__content">
+              <div class="trending__border">
+                <div class="trending__element">Design Thinking</div>
+              </div>
+              <div class="trending__border">
+                <div class="trending__element">Technology</div>
+              </div>
+              <div class="trending__border">
+                <div class="trending__element">Web3</div>
+              </div>
+              <div class="trending__border">
+                <div class="trending__element">Programming</div>
+              </div>
+              <div class="trending__border">
+                <div class="trending__element">AI</div>
+              </div>
+            </div>
+          </div>
+          <div class="posts">
+            <div class="post">
+              <div class="post__content">
+                <div class="post__date">Mar 1</div>
+                <div class="post__title">
+                  <b>Powerful Trading Tools and <br> Features for Experienced Investors</b>
+                </div>
+                <div class="post__text">I’m always trying to think of new and interesting <br> business ideas. I
+                  generally
+                  try
+                  to come up with ideas <br> by thinking of what I would want to do or see in the <br> world. Then, I
+                  try to
+                  find reasons why it wouldn’t work...</div>
+                <div class="post-footer">
+                  <div class="post-footer__trending">Tools</div>
+                  <div class="post-footer__author">By Mark Tuchel</div>
+                  <div class="post-footer__point">
+                    <img src="assets/point.svg" alt="point">
+                  </div>
+                  <div class="post-footer__min-read">7 min read</div>
+                </div>
+              </div>
+              <div class="post__image">
+                <img class="post__image-circle" src="assets/image-1-circle.svg" alt="circle">
+                <img class="post__image-arc" src="assets/image-1-arc.svg" alt="arc">
+              </div>
+            </div>
+            <div class="post">
+              <div class="post__content">
+                <div class="post__date">Jan 2</div>
+                <div class="post__title">
+                  <b>We are implementing AI and <br> Technology</b>
+                </div>
+                <div class="post__text">I’m always trying to think of new and interesting <br> business ideas. I
+                  generally
+                  try
+                  to come up with ideas <br> by thinking of what I would want to do or see in the <br> world. Then, I
+                  try to
+                  find reasons why it wouldn’t work...</div>
+                <div class="post-footer">
+                  <div class="post-footer__trending">AI</div>
+                  <div class="post-footer__author">By Harry Oland</div>
+                  <div class="post-footer__point">
+                    <img src="assets/point.svg" alt="point">
+                  </div>
+                  <div class="post-footer__min-read">4 min read</div>
+                </div>
+              </div>
+              <div class="post__image">
+                <img class="post__image-circle post__image-circle_last" src="assets/image-2-circle.svg" alt="image">
+              </div>
+            </div>
+            <div class="overflow">
+              <overflfow class="overflow-scroll"></overflfow>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-content__link">Stay up to date</div>
+        <div class="footer-content__title">
+          <b>Join Our Newsletter</b>
+        </div>
+        <div class="footer-content-input">
+          <input class="footer-content-input__placeholder" type="email" placeholder="Enter your email..">
+        </div>
+        <a class="footer-content__button">Submit</a>
+        <div class="footer-content__ps">*You can unsubscribe anytime</div>
+      </div>
+      <div class="footer-image">
+        <div class="footer-image__arc"></div>
+      </div>
+    </footer>
+  </div>
 </body>
 
 </html>
