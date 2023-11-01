@@ -26,21 +26,20 @@
     padding-left: 124px;
 }
 
+.section__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .section__text {
     color: #7D7D7D;
     font-size: 18px;
     padding-left: 124px;
 }
 
-.section-search {
-    width: 448px;
-    height: 48px;
-    border-radius: 66px;
-    border: 1px solid #DADADA;
-    background: #FFF;
-    position: absolute;
-    left: 898px;
-    top: 298px;
+.section__search {
+    padding-right: 136px;
 }
 
 .section-hr {
