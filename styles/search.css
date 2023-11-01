@@ -5,9 +5,7 @@
     border: 1px solid #DADADA;
     border-radius: 62px;
     background: #FFF;
-    position: absolute;
-    margin-left: 335px;
-    margin-top: 66px;
+    position: relative;
 }
 
 .search__input {

@@ -1,7 +1,5 @@
 .trending {
-    position: absolute;
-    top: 432px;
-    left: 534px;
+    padding: 32px 0;
 }
 
 .trending__content {

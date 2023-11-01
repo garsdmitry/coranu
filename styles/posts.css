@@ -1,14 +1,19 @@
-.post-1 {
-    position: absolute;
-    left: 545px;
-    top: 563px;
+.posts {
+
 }
 
-.post-2 {
+.post {
+    display: flex;
+    padding-bottom: 96px;
+    gap: 24px;
+    justify-content: space-between;
+}
+
+/* .post {
     position: absolute;
     left: 545px;
     top: 930px;
-}
+} */
 
 .post__date {
     color: #1C5CFF;
@@ -66,17 +71,19 @@
     font-size: 15px;
 }
 
-.image-1 {
+.post__content {}
+
+.post__image {
     width: 249px;
     height: 258px;
     border: 1px solid #C9C9C9;
     background: #1C5CFF;
-    position: absolute;
-    left: 1080px;
-    top: 568px;
+    position: relative;
+    /* left: 1080px;
+    top: 568px; */
 }
 
-.image-2 {
+/* .image {
     width: 249px;
     height: 258px;
     border: 1px solid #C9C9C9;
@@ -84,23 +91,28 @@
     position: absolute;
     left: 1076px;
     top: 928px;
-}
-
-.image-2-circle {
+} */
+/* 
+.image-circle {
     position: absolute;
     top: 17px;
-}
+} */
 
-.image-arc {
+.post__image-arc {
     position: absolute;
     bottom: 13px;
     left: 58px;
 }
 
-.image-circle {
+.post__image-circle {
     position: absolute;
     left: 26px;
     top: 92px;
+}
+
+.post__image-circle_last {
+    left: 0px;
+    top: 17px;
 }
 
 .overflow {
@@ -112,11 +124,6 @@
     background: #D9D9D9;
 }
 
-.overflow-arrow-top {
-    padding-left: 2px;
-    padding-top: 8px;
-}
-
 .overflow-scroll {
     width: 15px;
     height: 99px;
@@ -125,7 +132,14 @@
     margin-top: 12px;
 }
 
-.overflow-arrow-bottom {
-    padding-left: 2px;
-    padding-top: 675px;
+.overflow-scroll::-webkit-scrollbar-button {
+    width: 10px;
+    height: 10px;
+}
+
+.overflow-scroll::-webkit-scrollbar-thumb {
+    width: 15px;
+    height: 99px;
+    border-radius: 10px;
+    background: #797979;
 }

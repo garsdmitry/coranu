@@ -1,0 +1,31 @@
+.main__content {
+    display: flex;
+}
+
+.main__menu {
+    width: 25%;
+    padding-top: 136px;
+    padding-left: 80px;
+}
+
+.main__posts {
+    width: 75%;
+    height: 400px;
+    overflow: hidden;
+    overflow-y: scroll;
+    padding-right: 144px;
+}
+
+.main__posts::-webkit-scrollbar {
+    width: 15px;
+}
+
+.main__posts::-webkit-scrollbar-track {
+    background: #D9D9D9;
+}
+
+.main__posts::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #797979;
+}
+
