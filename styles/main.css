@@ -1,0 +1,13 @@
+.main__content {
+    display: flex;
+}
+
+.main__menu {
+    width: 25%;
+    padding-top: 136px;
+    padding-left: 80px;
+}
+
+.main__posts {
+    width: 75%;
+}
