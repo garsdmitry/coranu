@@ -1,6 +1,10 @@
+.posts {
+    width: 75%;
+}
+
 .post {
     display: flex;
-    
+
 }
 
 /* .post {
