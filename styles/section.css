@@ -1,6 +1,6 @@
 .section-link {
     display: inline-block;
-    padding-left: 128px;
+    text-decoration: none;
     padding-top: 72px;
 }
 
@@ -23,7 +23,6 @@
     line-height: 136%;
     padding-top: 28px;
     padding-bottom: 16px;
-    padding-left: 124px;
 }
 
 .section__block {
@@ -35,7 +34,6 @@
 .section__text {
     color: #7D7D7D;
     font-size: 18px;
-    padding-left: 124px;
 }
 
 .section__search {
@@ -46,6 +44,5 @@
     width: 1372px;
     height: 1px;
     background: #E3E3E3;
-    margin-left: 124px;
     margin-top: 43px;
 }
