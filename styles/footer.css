@@ -22,7 +22,7 @@
     padding-top: 12px;
 }
 
-.footer-content-input__placeholder {
+.footer-content-form__placeholder {
     border: none;
     border-radius: 8px;
     height: 53px;
@@ -30,7 +30,7 @@
     padding-left: 22px;
 }
 
-.footer-content-input {
+.footer-content-form {
     width: 325px;
     height: 55px;
     border-radius: 8px;
@@ -41,7 +41,7 @@
     margin-top: 24px;
 }
 
-.footer-content__button {
+.footer-content-form__button {
     position: absolute;
     left: 662px;
     top: 1432px;
@@ -55,6 +55,7 @@
     height: 54px;
     border-radius: 7px;
     background: #1C5CFF;
+    border: 0;
 }
 
 .footer-content__ps {
