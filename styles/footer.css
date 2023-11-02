@@ -42,9 +42,6 @@
 }
 
 .footer-content-form__button {
-    position: absolute;
-    left: 662px;
-    top: 1432px;
     color: #FFF;
     display: flex;
     justify-content: center;
@@ -56,6 +53,9 @@
     border-radius: 7px;
     background: #1C5CFF;
     border: 0;
+    position: relative;
+    margin-left: 350px;
+    margin-top: -55px;
 }
 
 .footer-content__ps {
